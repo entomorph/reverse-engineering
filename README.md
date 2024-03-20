@@ -11,7 +11,7 @@ This project is dedicated to reverse engineering the 1995 game [Entomorph: Plagu
 - [x64dbg](https://x64dbg.com/)
 - [Kaitai Struct](https://kaitai.io/)
 
-## Phase 1: Disassembly (60% complete)
+## Phase 1: Disassembly (76% complete)
 
 The initial phase involves disassembling the game's executable and thoroughly documenting the code. Ghidra and ChatGPT 4 are employed to assist in this process, with ChatGPT 4 being particularly helpful in deciphering decompiled functions.
 
