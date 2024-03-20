@@ -54,6 +54,10 @@ TODO
 
 ### GPLS
 
-TODO
+Entomorph features a bespoke interpreted programming language!
+
+Abbreviated as "GPL" - which could stand for "General Programming Language" or "Game Programming Language". These GPL files consist of bytecodes that a built-in interpreter within the game processes. This design choice suggests an ambition to repurpose the engine for subsequent games, highlighting its adaptability and potential for future development.
+
+This system's efficiency is demonstrated by the fact that the initial patch for Entomorph consisted solely of updated GPL files.
 
 [1]: https://en.wikipedia.org/wiki/Entomorph:_Plague_of_the_Darkfall
