@@ -38,7 +38,7 @@ ffplay -autoexit -f u8 -ar 22050 -ac 2 5_1.RAW
 
 ### WORLDS
 
-TODO
+Those are [.LIB](LIBs.md) files. They all seems to contain 11 entries. More investigation is needed to understand their structure.
 
 ### CINE
 
@@ -46,7 +46,7 @@ The game's cinematics are stored in the CINE directory as Smacker video files, w
 
 ### ENGINE
 
-The `ENGINE` directory contains .LIB files used by the game's engine. These files follow a custom container format, including a list of files within.
+The `ENGINE` directory contains .LIB files used by the game's engine. See the [LIBs documentation](LIBs.md) file for more information.
 
 ### SFX
 
