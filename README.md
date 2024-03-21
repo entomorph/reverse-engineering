@@ -50,7 +50,52 @@ The `ENGINE` directory contains .LIB files used by the game's engine. See the [L
 
 ### SFX
 
-TODO
+#### .BNK
+
+.BNK files serve as sound databases within the game, detailing attributes for how each sound should be executed by the engine. Interestingly, the game engine disregards the first 20 entries for reasons not made clear. Each entry within the .BNK file maps to a .MEL file by specifying the file number along with other playback attributes. The structure of a .BNK file is as follows:
+
+```ksy
+meta:
+  id: bnk_file
+  file-extension: bnk
+  endian: le
+seq:
+  - id: audio_entries
+    type: audio_entry
+    repeat: eos
+types:
+  audio_entry:
+    seq:
+      - id: audio_number
+        type: u4
+        doc: The number corresponding to a .MEL audio file.
+      - id: audio_size
+        type: u4
+      - id: file_buffer
+        type: u4
+      - id: unknown
+        type: u4
+      - id: playback_rate
+        type: u4
+      - id: playback_rate_upper
+        type: u4
+      - id: playback_rate_lower
+        type: u4
+      - id: loop_count
+        type: u4
+      - id: volume_adjustment_offset
+        type: u4
+```
+
+Note: The final entry in the .BNK file may be invalid or serve as a placeholder.
+
+#### .MEL
+
+.MEL (Melody?) files contain audio data in an 8-bit unsigned PCM format. Although the playback sample rate is specified within the corresponding .BNK file, it generally defaults to 11025 Hz. To play a .MEL file outside the game engine, the following command can be used:
+
+```
+ffplay -autoexit -f u8 -ar 11025 -ac 2 155.MEL
+```
 
 ### GPLS
 
