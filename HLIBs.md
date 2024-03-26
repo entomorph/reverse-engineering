@@ -60,3 +60,8 @@ The HLIB contains several other types of data, here are some examples:
 Found in `ENGINE/SYSFILE.LIB` at index 0.
 
 It contains a header of 12 bytes, followed by 256 RGB colors (768 bytes).
+
+
+### .iff images
+
+Located in ENGINE/SYSFILE.LIB and ENGINE/PC.LIB, these files are [ILBM](https://en.wikipedia.org/wiki/ILBM) (Interleaved Bitmap) format images, specifically of the PBM (Planar Bitmap) variant, used for full-screen graphics. The ILBM format, originating from an earlier era, lacks support from most current image viewers. To view these images, Graphics Workshop 1.1Y is recommended and available for download at [settlers2.net](https://settlers2.net/wp-content/uploads/2011/06/gwsw95.exe).
