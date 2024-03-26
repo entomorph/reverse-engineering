@@ -37,7 +37,7 @@ _Content pending._
 
 ### ENGINE/PIC.LIB
 
-_Content pending._
+Except the file at index 0, these are all [ILBM][ilbm-section] images.
 
 ### ENGINE/SPELLS.LIB
 
@@ -91,7 +91,10 @@ _Content pending._
 #### PIC.PIC
 
 - File index: 8
-- Format: Unknown
+- Format: [ILBM][ilbm-section]
+- Description: The following image
+
+![PIC](assets/S8_SYSFILE.LIB.png)
 
 #### NONAME
 
@@ -135,7 +138,11 @@ _Content pending._
 #### PIC.PIC
 
 - File index: 16
-- Format: Unknown
+- Format: [ILBM][ilbm-section]
+- Description: The following image
+
+![PIC](assets/S16_SYSFILE.LIB.png)
+
 
 #### NONAME
 
@@ -205,4 +212,9 @@ JOEWEB
 #### PIC.PIC
 
 - File index: 21
-- Format: Unknown
+- Format: [ILBM][ilbm-section]
+- Description: The following image
+
+![PIC](assets/S21_SYSFILE.LIB.png)
+
+[ilbm-section]: HLIBs.md#interleaved-bitmap-ilbm
