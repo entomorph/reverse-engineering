@@ -13,5 +13,4 @@ for f in functions:
 
 
 print(fn_count)
-print(other)
 print(100 - ((fn_count*100)/total))

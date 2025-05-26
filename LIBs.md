@@ -32,8 +32,7 @@ The subsequent sections list contents extracted from various .LIB files as deter
 ## Contents of Specific .LIB Files
 
 ### ENGINE/PC.LIB
-
-_Content pending._
+PC likely stands for “Player Character.” The archive contains eight files, loaded in pairs, which probably correspond to player sprites and metadata for each of the four transformation stages. The game loads the even-indexed files into resource 17.
 
 ### ENGINE/PIC.LIB
 

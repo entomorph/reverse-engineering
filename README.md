@@ -7,15 +7,15 @@ This project is dedicated to reverse engineering the 1995 game [Entomorph: Plagu
 ## Tools used
 
 - [Ghidra](https://ghidra-sre.org/)
-- [ChatGPT 4](https://chat.openai.com/)
 - [x64dbg](https://x64dbg.com/)
 - [Kaitai Struct](https://kaitai.io/)
+- LLM's
 
 ## Phase 1: Disassembly (76% complete)
 
-The initial phase involves disassembling the game's executable and thoroughly documenting the code. Ghidra and ChatGPT 4 are employed to assist in this process, with ChatGPT 4 being particularly helpful in deciphering decompiled functions.
+The initial phase involves disassembling the game's executable and thoroughly documenting the code. Ghidra and ChatGPT 4 are employed to assist in this process, with LLM's being particularly helpful in deciphering decompiled functions.
 
-When a function is not easily comprehensible, x64dbg is used to step through the code for better understanding. However, Ghidra and ChatGPT have been mostly sufficient for this task.
+When a function is not easily comprehensible, x64dbg is used to step through the code for better understanding. However, Ghidra and LLM's have been mostly sufficient for this task.
 
 ### Challenges:
 
@@ -24,7 +24,7 @@ When a function is not easily comprehensible, x64dbg is used to step through the
 - The game employs a custom memory allocator, making it difficult to comprehend the memory layout.
 - Globals are ubiquitous and require documentation, with some needing to be merged into structs.
 
-## Phase 2: Assets documentation (10% complete)
+## Phase 2: Assets documentation (30% complete)
 
 The second phase focuses on documenting the game's assets and developing a tool to visualize them. Kaitai Struct is used to facilitate this process.
 
@@ -38,7 +38,7 @@ ffplay -autoexit -f u8 -ar 22050 -ac 2 5_1.RAW
 
 ### WORLDS
 
-Those are [.LIB](LIBs.md) files. They all seems to contain 11 entries. More investigation is needed to understand their structure.
+Check the [WORLDS.md](WORLDS.md) file for more information.
 
 ### CINE
 
