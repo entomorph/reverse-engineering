@@ -63,18 +63,22 @@ _Content pending._
 #### GENEVA.9
 
 - File index: 3
-- Format: Unknown
+- Format: [Apple IIGS Font File](FONT.md)
+- Group id: 33
+- Description: Probably [Geneva](https://en.wikipedia.org/wiki/Geneva_(typeface)) font in size 9.
 
 #### NONAME
 
 - File index: 4
-- Format: Unknown
-- Description: Not found in the game's executable yet.
+- Format: [Apple IIGS Font File](FONT.md)
+- Description: Font internal name is "Round". Not found in the game's executable yet.
 
 #### PLAGUE.18
 
 - File index: 5
-- Format: Unknown
+- Format: [Apple IIGS Font File](FONT.md)
+- Group id: 29
+- Description: Probably a custom font.
 
 #### NONAME
 
