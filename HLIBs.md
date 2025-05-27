@@ -118,8 +118,8 @@ Needs confirmation, but likely uses a planar format similar to ILBM.
 
 Standard sprite format:
  - Each 16-bit word holds two 8-bit palette indices.
- - 0xFF = transparent pixel, otherwise alpha=0xFF.
- - After unpacking, each index is looked up in the 256-entry palette to produce RGBA.
+ - 0xFF = transparent pixel
+ - After unpacking, each index is looked up in the 256-entry palette to produce RGB.
 
 
 ### Mode 8: Palette block

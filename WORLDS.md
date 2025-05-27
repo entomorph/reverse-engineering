@@ -187,17 +187,20 @@ types:
 ## Index 1
 
 - Format: [HLIB](HLIB.md)
-- Internal name: WORLD_NAME.TLB
+- Internal name: <WORLD_NAME>.TLB
 - Description: Contains the tile graphics for this world.
 - Group id: 1
 
 ## Index 2
 
-Format: [HLIB](HLIB.md)
+- Format: [HLIB](HLIB.md)
+- Description: The tileset for this world. The item at index 0 is always the palette.
 
 ## Index 3
 
-TBD
+- Format: OJI
+- Internal name 1.OJI
+- Group id: 3
 
 ## Index 4
 
@@ -205,7 +208,9 @@ Format: [HLIB](HLIB.md)
 
 ## Index 5
 
-TBD
+- Format: OJI
+- Internal name 2.OJI
+- Group id: 19
 
 ## Index 6
 
@@ -213,7 +218,9 @@ Format: [HLIB](HLIB.md)
 
 ## Index 7
 
-TBD
+- Format: OJI
+- Internal name 3.OJI
+- Group id: 20
 
 ## Index 8
 
@@ -221,7 +228,9 @@ Format: [HLIB](HLIB.md)
 
 ## Index 9
 
-TBD
+- Format: OJI
+- Internal name 4.OJI
+- Group id: 21
 
 ## Index 10
 
@@ -314,4 +323,6 @@ The data_block structure is not well understood yet.
 
 ## Index 11
 
-TBD
+- Format: PTH
+- Internal name <WORLD_NAME>.PTH
+- Group id: 38
